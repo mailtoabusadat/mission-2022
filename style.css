@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.row:before {
+  display: table;
+  content: " ";
+}
+.col-7 {
+  float: left;
+  width: 58.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-5 {
+  float: left;
+  width: 41.66%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-4 {
+  float: left;
+  width: 33.3333333333333%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.stay-focused .left-side {
+  padding-top: 150px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.stay-focused .heading {
+  padding-left: 10px;
+  border-left: 4px solid #ff5959;
+}
+h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #ff5959;
+  padding: 8px 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.my-mission .card {
+  padding: 15px;
+  border-radius: 26px;
+}
+.my-mission .card.mission {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.my-mission .card.vission {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.my-mission .card.goals {
+  background-color: rgba(255, 244, 214, 1);
+}
+.my-mission h1 {
+  color: #13103a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.my-mission h1 span {
+  color: #ffad5a;
+}
+.my-mission .card img {
+  max-width: 150px;
+}
+.develop .right-side {
+  margin-top: 80px;
+}
+.global-community .left-side {
+  padding-top: 120px;
+}
+.extra-section .person {
+  text-align: center;
+}
+.extra-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 25px 0;
+  color: #fff;
+}
+
+footer .logo {
+  font-family: "Poppins", sans-serif;
+}
+footer span {
+  color: #ff5959;
+}
